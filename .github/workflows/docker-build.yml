@@ -32,4 +32,4 @@ jobs:
               with:
                     context: .
                     push: true
-                    tags: ghcr.io/rami-hardware:latest
+                    tags: ghcr.io/rami-hardware/pingcheck:latest
