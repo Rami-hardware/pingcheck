@@ -9,6 +9,7 @@ COPY requirements.txt .
 
 # Install dependencies
 RUN pip install --no-cache-dir -r requirements.txt
+RUN  apt update && apt install -y iputils-ping
 
 # Copy the rest of the app
 COPY main.py .
